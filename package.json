@@ -1,0 +1,21 @@
+{
+  "name": "zod-prisma-types-test",
+  "version": "0.0.1",
+  "main": "src/app.ts",
+  "author": "Seth Miller <miller.seth@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prebuild": "yarn prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "4.10.0",
+    "@types/node": "^18.14.2",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "prisma": "4.10.0",
+    "ts-node": "^10.9.1",
+    "zod-prisma-types": "^2.3.3"
+  }
+}
